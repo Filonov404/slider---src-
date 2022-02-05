@@ -16,6 +16,7 @@ srcs.push("images/6.jpg");
 srcs.push("images/7.jpg");
 srcs.push("images/8.jpg");
 
+
 let currentIndex = 1;
 
 slide.src = srcs[currentIndex];
@@ -24,7 +25,6 @@ function showPrev() {
   currentIndex--;
   slide.src = srcs[currentIndex];
   if ( currentIndex <= 0 ) {
-    console.log('-');
     currentIndex = srcs.length 
   }
 }
@@ -33,7 +33,6 @@ function showNext() {
   currentIndex++;
   slide.src = srcs[currentIndex];
   if (currentIndex >= (srcs.length - 1)){
-    console.log("+");
     currentIndex = - 1 ;
   }
 }
