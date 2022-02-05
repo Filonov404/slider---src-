@@ -19,7 +19,6 @@
 
 .prev, .next {
   cursor: pointer;
-
   width: auto;
   margin-top: -22px;
   padding: 16px;
